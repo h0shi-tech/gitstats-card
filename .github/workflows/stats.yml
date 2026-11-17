@@ -1,0 +1,60 @@
+name: Refresh stats card
+
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gitstats-card-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Regenerate assets/stats.svg
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out the default branch with full history
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate the card
+        # The author filter keeps automated card-refresh commits by
+        # github-actions[bot] out of the statistics. Adjust it to the git
+        # identity you want to count.
+        run: |
+          python -m gitstats_card \
+            --path . \
+            --days 365 \
+            --author "Vlad" \
+            --title "Vlad Nikishin" \
+            --theme dark \
+            --out assets/stats.svg
+
+      - name: Commit and push when the card changed
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -- assets/stats.svg
+          if git diff --cached --quiet; then
+            echo "Stats card is unchanged."
+            exit 0
+          fi
+
+          git commit -m "chore: refresh coding stats card"
+          git push origin "HEAD:${DEFAULT_BRANCH}"

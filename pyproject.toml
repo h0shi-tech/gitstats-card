@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gitstats-card"
+description = "Generate a self-hosted SVG coding-stats card from local git repositories"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Vlad Nikishin" }]
+keywords = [
+    "git",
+    "statistics",
+    "svg",
+    "profile-readme",
+    "developer-tools",
+    "no-api",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+dependencies = []
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/h0shi-tech/gitstats-card"
+Repository = "https://github.com/h0shi-tech/gitstats-card"
+Issues = "https://github.com/h0shi-tech/gitstats-card/issues"
+
+[project.scripts]
+gitstats-card = "gitstats_card.cli:main"
+
+[tool.setuptools]
+packages = ["gitstats_card"]
+
+[tool.setuptools.dynamic]
+version = { attr = "gitstats_card.__version__" }
