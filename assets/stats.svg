@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220" role="img" aria-labelledby="card-title card-desc">
   <title id="card-title">Vlad Nikishin — coding statistics</title>
-  <desc id="card-desc">Vlad Nikishin: 99 commits across 3 repositories; 80 active days, a 6-day current streak, and a 12-day longest streak. Top language: TypeScript.</desc>
+  <desc id="card-desc">Vlad Nikishin: 2 commits across 1 repository; 1 active days, a 1-day current streak, and a 1-day longest streak. Top language: Python.</desc>
   <defs>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58a6ff"/>
@@ -17,12 +17,12 @@
     <circle cx="40.5" cy="23.5" r="1.7" fill="#bc8cff"/>
     <text x="56" y="29" font-size="15" font-weight="600" fill="#c9d1d9">Vlad Nikishin</text>
     <text x="458" y="28" font-size="8.5" letter-spacing="0.4" fill="#8b949e" text-anchor="end">self-hosted</text>
-    <text x="56" y="45" font-size="9.5" fill="#8b949e">365-day window · 3 repositories · top atlas-web</text>
+    <text x="56" y="45" font-size="9.5" fill="#8b949e">365-day window · 1 repository · top gitstats-card</text>
     <line x1="22" y1="58" x2="458" y2="58" stroke="#21262d" stroke-width="1"/>
-    <text x="22" y="86" font-size="27" font-weight="700" fill="#c9d1d9">99</text>
-    <text x="140" y="86" font-size="21" font-weight="600" fill="#c9d1d9">80</text>
-    <text x="256" y="86" font-size="21" font-weight="600" fill="#58a6ff">6</text>
-    <text x="372" y="86" font-size="21" font-weight="600" fill="#c9d1d9">12</text>
+    <text x="22" y="86" font-size="27" font-weight="700" fill="#c9d1d9">2</text>
+    <text x="140" y="86" font-size="21" font-weight="600" fill="#c9d1d9">1</text>
+    <text x="256" y="86" font-size="21" font-weight="600" fill="#58a6ff">1</text>
+    <text x="372" y="86" font-size="21" font-weight="600" fill="#c9d1d9">1</text>
     <text x="22" y="102" font-size="8" font-weight="600" letter-spacing="1.1" fill="#8b949e">COMMITS</text>
     <text x="140" y="102" font-size="8" font-weight="600" letter-spacing="1.1" fill="#8b949e">ACTIVE DAYS</text>
     <text x="256" y="102" font-size="8" font-weight="600" letter-spacing="1.1" fill="#8b949e">CURRENT STREAK</text>
@@ -32,61 +32,41 @@
     <line x1="358" y1="69" x2="358" y2="101" stroke="#21262d" stroke-width="1"/>
     <line x1="22" y1="112" x2="458" y2="112" stroke="#21262d" stroke-width="1"/>
     <text x="22" y="128" font-size="8" font-weight="600" letter-spacing="1.2" fill="#8b949e">LANGUAGES</text>
-    <text x="458" y="128" font-size="8.5" fill="#8b949e" text-anchor="end">37 tracked files</text>
+    <text x="458" y="128" font-size="8.5" fill="#8b949e" text-anchor="end">20 tracked files</text>
     <rect x="22" y="135" width="436" height="6" rx="3" fill="#21262d"/>
     <g clip-path="url(#language-clip)">
-        <rect x="22" y="135" width="118" height="6" fill="#58a6ff"/>
-        <rect x="140" y="135" width="106" height="6" fill="#3fb950"/>
-        <rect x="246" y="135" width="71" height="6" fill="#d29922"/>
-        <rect x="317" y="135" width="141" height="6" fill="#8b949e"/>
+        <rect x="22" y="135" width="262" height="6" fill="#58a6ff"/>
+        <rect x="284" y="135" width="87" height="6" fill="#3fb950"/>
+        <rect x="371" y="135" width="43" height="6" fill="#d29922"/>
+        <rect x="414" y="135" width="44" height="6" fill="#8b949e"/>
     </g>
     <circle cx="25" cy="151.5" r="3" fill="#58a6ff"/>
-    <text x="32" y="155" font-size="8.5" fill="#8b949e">TypeScript 27%</text>
+    <text x="32" y="155" font-size="8.5" fill="#8b949e">Python 60%</text>
     <circle cx="134" cy="151.5" r="3" fill="#3fb950"/>
-    <text x="141" y="155" font-size="8.5" fill="#8b949e">Python 24%</text>
+    <text x="141" y="155" font-size="8.5" fill="#8b949e">Unknown 20%</text>
     <circle cx="243" cy="151.5" r="3" fill="#d29922"/>
-    <text x="250" y="155" font-size="8.5" fill="#8b949e">Markdown 16%</text>
+    <text x="250" y="155" font-size="8.5" fill="#8b949e">YAML 10%</text>
     <circle cx="352" cy="151.5" r="3" fill="#8b949e"/>
-    <text x="359" y="155" font-size="8.5" fill="#8b949e">Other 32%</text>
+    <text x="359" y="155" font-size="8.5" fill="#8b949e">Other 10%</text>
     <line x1="22" y1="163" x2="458" y2="163" stroke="#21262d" stroke-width="1"/>
     <text x="22" y="177" font-size="8" font-weight="600" letter-spacing="1.1" fill="#8b949e">MONTHLY COMMITS</text>
-    <text x="458" y="177" font-size="8" font-weight="600" letter-spacing="1.1" fill="#8b949e" text-anchor="end">ACTIVE HOURS · PEAK 13:00 UTC</text>
+    <text x="458" y="177" font-size="8" font-weight="600" letter-spacing="1.1" fill="#8b949e" text-anchor="end">ACTIVE HOURS · PEAK 19:00 UTC</text>
     <line x1="22" y1="200" x2="286" y2="200" stroke="#21262d" stroke-width="1"/>
     <line x1="312" y1="200" x2="454" y2="200" stroke="#21262d" stroke-width="1"/>
-    <rect x="22" y="196" width="13" height="4" rx="2" fill="url(#accent)" opacity="0.9"><title>2025-12: 4 commits</title></rect>
     <text x="28.5" y="212" font-size="7" fill="#8b949e" text-anchor="middle">Dec</text>
-    <rect x="44" y="196" width="13" height="4" rx="2" fill="url(#accent)" opacity="0.9"><title>2026-01: 5 commits</title></rect>
     <text x="50.5" y="212" font-size="7" fill="#8b949e" text-anchor="middle">Jan</text>
-    <rect x="66" y="195" width="13" height="5" rx="2" fill="url(#accent)" opacity="0.9"><title>2026-02: 6 commits</title></rect>
     <text x="72.5" y="212" font-size="7" fill="#8b949e" text-anchor="middle">Feb</text>
-    <rect x="88" y="195" width="13" height="5" rx="2" fill="url(#accent)" opacity="0.9"><title>2026-03: 6 commits</title></rect>
     <text x="94.5" y="212" font-size="7" fill="#8b949e" text-anchor="middle">Mar</text>
-    <rect x="110" y="196" width="13" height="4" rx="2" fill="url(#accent)" opacity="0.9"><title>2026-04: 5 commits</title></rect>
     <text x="116.5" y="212" font-size="7" fill="#8b949e" text-anchor="middle">Apr</text>
-    <rect x="132" y="195" width="13" height="5" rx="2" fill="url(#accent)" opacity="0.9"><title>2026-05: 6 commits</title></rect>
     <text x="138.5" y="212" font-size="7" fill="#8b949e" text-anchor="middle">May</text>
-    <rect x="154" y="196" width="13" height="4" rx="2" fill="url(#accent)" opacity="0.9"><title>2026-06: 5 commits</title></rect>
     <text x="160.5" y="212" font-size="7" fill="#8b949e" text-anchor="middle">Jun</text>
-    <rect x="176" y="195" width="13" height="5" rx="2" fill="url(#accent)" opacity="0.9"><title>2026-07: 6 commits</title></rect>
     <text x="182.5" y="212" font-size="7" fill="#8b949e" text-anchor="middle">Jul</text>
-    <rect x="198" y="185" width="13" height="15" rx="2" fill="url(#accent)" opacity="0.9"><title>2026-08: 17 commits</title></rect>
     <text x="204.5" y="212" font-size="7" fill="#8b949e" text-anchor="middle">Aug</text>
-    <rect x="220" y="195" width="13" height="5" rx="2" fill="url(#accent)" opacity="0.9"><title>2026-09: 6 commits</title></rect>
     <text x="226.5" y="212" font-size="7" fill="#8b949e" text-anchor="middle">Sep</text>
-    <rect x="242" y="182" width="13" height="18" rx="2" fill="url(#accent)" opacity="0.9"><title>2026-10: 20 commits</title></rect>
     <text x="248.5" y="212" font-size="7" fill="#8b949e" text-anchor="middle">Oct</text>
-    <rect x="264" y="189" width="13" height="11" rx="2" fill="url(#accent)" opacity="0.9"><title>2026-11: 12 commits</title></rect>
+    <rect x="264" y="182" width="13" height="18" rx="2" fill="url(#accent)" opacity="0.9"><title>2026-11: 2 commits</title></rect>
     <text x="270.5" y="212" font-size="7" fill="#8b949e" text-anchor="middle">Nov</text>
-    <rect x="366" y="197" width="4" height="3" rx="1" fill="#bc8cff" opacity="0.55"><title>09:00 UTC: 7 commits</title></rect>
-    <rect x="372" y="198" width="4" height="2" rx="1" fill="#bc8cff" opacity="0.55"><title>10:00 UTC: 4 commits</title></rect>
-    <rect x="378" y="193" width="4" height="7" rx="1" fill="#bc8cff" opacity="0.55"><title>11:00 UTC: 19 commits</title></rect>
-    <rect x="384" y="198" width="4" height="2" rx="1" fill="#bc8cff" opacity="0.55"><title>12:00 UTC: 6 commits</title></rect>
-    <rect x="390" y="182" width="4" height="18" rx="1" fill="#58a6ff" opacity="0.95"><title>13:00 UTC: 47 commits</title></rect>
-    <rect x="396" y="198" width="4" height="2" rx="1" fill="#bc8cff" opacity="0.55"><title>14:00 UTC: 1 commit</title></rect>
-    <rect x="402" y="198" width="4" height="2" rx="1" fill="#bc8cff" opacity="0.55"><title>15:00 UTC: 4 commits</title></rect>
-    <rect x="408" y="198" width="4" height="2" rx="1" fill="#bc8cff" opacity="0.55"><title>16:00 UTC: 4 commits</title></rect>
-    <rect x="414" y="198" width="4" height="2" rx="1" fill="#bc8cff" opacity="0.55"><title>17:00 UTC: 3 commits</title></rect>
-    <rect x="420" y="198" width="4" height="2" rx="1" fill="#bc8cff" opacity="0.55"><title>18:00 UTC: 4 commits</title></rect>
+    <rect x="426" y="182" width="4" height="18" rx="1" fill="#58a6ff" opacity="0.95"><title>19:00 UTC: 2 commits</title></rect>
     <text x="312" y="212" font-size="7" fill="#8b949e">00</text>
     <text x="454" y="212" font-size="7" text-anchor="end" fill="#8b949e">23</text>
   </g>
