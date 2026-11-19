@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220" role="img" aria-labelledby="card-title card-desc">
   <title id="card-title">Vlad Nikishin — coding statistics</title>
-  <desc id="card-desc">Vlad Nikishin: 2 commits across 1 repository; 1 active days, a 1-day current streak, and a 1-day longest streak. Top language: Python.</desc>
+  <desc id="card-desc">Vlad Nikishin: 2 commits across 1 repository; 1 active days, a 0-day current streak, and a 1-day longest streak. Top language: Python.</desc>
   <defs>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58a6ff"/>
@@ -21,7 +21,7 @@
     <line x1="22" y1="58" x2="458" y2="58" stroke="#21262d" stroke-width="1"/>
     <text x="22" y="86" font-size="27" font-weight="700" fill="#c9d1d9">2</text>
     <text x="140" y="86" font-size="21" font-weight="600" fill="#c9d1d9">1</text>
-    <text x="256" y="86" font-size="21" font-weight="600" fill="#58a6ff">1</text>
+    <text x="256" y="86" font-size="21" font-weight="600" fill="#58a6ff">0</text>
     <text x="372" y="86" font-size="21" font-weight="600" fill="#c9d1d9">1</text>
     <text x="22" y="102" font-size="8" font-weight="600" letter-spacing="1.1" fill="#8b949e">COMMITS</text>
     <text x="140" y="102" font-size="8" font-weight="600" letter-spacing="1.1" fill="#8b949e">ACTIVE DAYS</text>
